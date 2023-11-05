@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Carousel</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="icons/font/bootstrap-icons.css">
+        <script src="JS.js" defer></script>
+    </head>
+    <body>
+        <h1>Image Carousel</h1>
+        <div class="container">
+            <div class="carousel" data-carousel>
+                <button class="carousel-button prev" data-carousel-button="prev">
+                    <span class="bi-arrow-left"></span>
+                </button>
+                <button class="carousel-button next" data-carousel-button="next">
+                    <span class="bi-arrow-right"></span>
+                </button>
+                <ul data-slides>
+                    <li class="slide" data-active>
+                        <img src="images/one.png" alt="Image #1" class="image">
+                    </li>
+                    <li class="slide">
+                        <img src="images/two.png" alt="Image #2" class="image">
+                    </li>
+                    <li class="slide">
+                        <img src="images/three.png" alt="Image #3" class="image">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
